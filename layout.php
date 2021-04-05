@@ -11,9 +11,12 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+
+<?php require_once 'db_connect.php' ?>
 <?php require_once 'form.php' ?>
-<?php require_once 'func.php' ?>
+
+
+
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
